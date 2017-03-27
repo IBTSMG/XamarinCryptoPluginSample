@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="XamarinCryptoPluginSample.HomePage">
+	<ContentPage.Content>
+		<StackLayout HorizontalOptions="Center" Margin="10,30,10,10">
+			<Label Text="Xamarin Plugin Sample - Crypto Plugin" FontAttributes="Bold"></Label>
+			<Entry x:Name="PlainTextEntry" Placeholder="Plain text..."></Entry>
+			<Button Text="Sign with private key" Clicked="SignPlainText"></Button>
+			<Label x:Name="SignedDataLabel"></Label>
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>
